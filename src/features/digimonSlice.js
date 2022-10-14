@@ -1,0 +1,1 @@
+//digi-api.com/api/v1/digimon
