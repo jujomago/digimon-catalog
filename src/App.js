@@ -6,7 +6,12 @@ import RegisterPage from './pages/register'
 import Dashboard from './pages/dashboard'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 function App() {
-  const theme = createTheme();
+  const theme = createTheme({
+    palette: {
+      mode: 'dark',
+    },
+  }
+  );
   return (
     <ThemeProvider theme={theme}>
       {/*  <LoginPage />*/}

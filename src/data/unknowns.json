@@ -1,0 +1,4129 @@
+[
+  {
+    "id": 8,
+    "name": "Mush-Upped Mach Leomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mush-Upped_Mach_Leomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 35,
+        "skill": "Scud Missimon Full Fire",
+        "translation": "",
+        "description": "Attacks with a swarm of Scud Missimon "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 810,
+        "digimon": "Mach Leomon",
+        "condition": "with Green Zone's Code Crown, Abyss Truffle and Drimogemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 10,
+    "name": "Zombiemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Zombiemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2000",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 13,
+    "name": "Amon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Amon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2001",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 32,
+    "name": "Bagramon (Archangel Form)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Bagramon_(Archangel_Form).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 697,
+        "digimon": "Bagramon",
+        "condition": "with Yggdrasill's data"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 41,
+    "name": "Shoutmon X4S",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_X4S.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 130,
+        "skill": "Victory Brave",
+        "translation": "",
+        "description": "Extends an immense, dazzling-blue blade of light from the weaponized Spadamon's armament in its left hand, cutting everything to -shaped pieces. "
+      },
+      {
+        "id": 129,
+        "skill": "Blaze Fire",
+        "translation": "",
+        "description": "Fires the vulcans on its head. This has the power to inflict paralysis and neutralize the abilities of the enemies it hits. "
+      },
+      {
+        "id": 131,
+        "skill": "Xros R & B",
+        "translation": "",
+        "description": "Flings a huge, red and blue -shaped shock wave by swinging down its two weapons cross-wise, destroying the enemy lines with a storm-wave of energy. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 187,
+        "digimon": "Shoutmon X3",
+        "condition": "with Spadamon and Starmons"
+      },
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "with Spadamon, Ballistamon, Dorulumon and Starmons"
+      },
+      {
+        "id": 738,
+        "digimon": "Shoutmon X4",
+        "condition": "with Spadamon"
+      },
+      {
+        "id": 424,
+        "digimon": "Spadamon",
+        "condition": "with Ballistamon, Dorulumon, and Starmons"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 1072,
+        "digimon": "Shoutmon X5S",
+        "condition": "with Sparrowmon"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Xros Up Arresterdramon (Dobermon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Dobermon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Dobermon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 49,
+    "name": "Xros Up Gumdramon (Kotemon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Gumdramon_(Kotemon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 148,
+        "skill": "Fire Vortex Men",
+        "translation": "",
+        "description": "Spins with its shinai while leaving a fire trail from it, then strikes at the enemy's head. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 440,
+        "digimon": "Gumdramon",
+        "condition": "with Kotemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 50,
+    "name": "Apollomon Darkness Mode",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Apollomon_Darkness_Mode.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 619,
+        "digimon": "Apollomon Whispered",
+        "condition": "with Deadly Axemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 51,
+    "name": "Star Axe",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Star_Axe.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 351,
+        "digimon": "Starmons",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 52,
+    "name": "Chibi Kiwimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Chibi_Kiwimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 150,
+        "skill": "Jibaku",
+        "translation": "Selfdestruct",
+        "description": "Charges towards the enemy, then selfdestructs. "
+      }
+    ],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 53,
+    "name": "Gattai Ancient Volcamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Gattai_Ancient_Volcamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 151,
+        "skill": "Super Big Bang Fire",
+        "translation": "",
+        "description": "Shoots a ball of flaming lava from its volcano. "
+      }
+    ],
+    "priorEvolutions": []
+  },
+  {
+    "id": 78,
+    "name": "Pawn Shoutmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pawn_Shoutmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "with Pawn Chessmon White"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 83,
+    "name": "Xros Up Omega Shoutmon (Dorulumon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Omega_Shoutmon_(Dorulumon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 249,
+        "skill": "Dorulu Cannon",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 150,
+        "digimon": "Omega Shoutmon",
+        "condition": "with Dorulumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 98,
+    "name": "Xros Up Arresterdramon (Astamon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Astamon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 285,
+        "skill": "Prism Maverick",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Astamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 118,
+    "name": "Panbachimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Panbachimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 347,
+        "skill": "Sasanoha Cutter",
+        "translation": "Bamboo-leaf Cutter",
+        "description": " "
+      },
+      {
+        "id": 348,
+        "skill": "Dokudokubari",
+        "translation": "Venomous Stinger",
+        "description": " "
+      },
+      {
+        "id": 346,
+        "skill": "Shokkaku Binta",
+        "translation": "Antenna Slap",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 119,
+    "name": "Xros Up Dorulumon (Pawn Chessmon (White))",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Dorulumon_(Pawn_Chessmon_(White)).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 349,
+        "skill": "Dorulu Checkmate",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 692,
+        "digimon": "Dorulumon",
+        "condition": "with Pawn Chessmon White"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 125,
+    "name": "King Hangyomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/King_Hangyomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2002",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 129,
+    "name": "Knightmon Wise Sword Mode",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Knightmon_Wise_Sword_Mode.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 378,
+        "skill": "Wise Sword",
+        "translation": "",
+        "description": "Hurls a wave of blue energy from the Wise Sword. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 284,
+        "digimon": "Knightmon",
+        "condition": "with Wisemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 132,
+    "name": "Xros Up Submarimon (Plesiomon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Submarimon_(Plesiomon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 383,
+        "skill": "Oxygen Sorrow Blue",
+        "translation": "",
+        "description": "Fires an oxygen-powered blast of wave energy. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 264,
+        "digimon": "Submarimon",
+        "condition": "with Plesiomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 173,
+    "name": "Būmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Būmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2002",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 193,
+    "name": "Scud Missimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Scud_Missimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 217,
+    "name": "Pala Pandamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pala_Pandamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2004",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 786,
+        "digimon": "Pandamon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 527,
+        "digimon": "Tafa Pandamon",
+        "condition": ""
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Beelzebumon + Starmons",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Beelzebumon___Starmons.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 634,
+        "skill": "Meteor Cannon",
+        "translation": "",
+        "description": "Fires a beam that rains down as hundreds of energy bullets. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 544,
+        "digimon": "Beelzebumon (2010 Anime Version)",
+        "condition": "with Starmons"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 222,
+    "name": "Kohagurumon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Kohagurumon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2004",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 229,
+    "name": "Nikkorimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Nikkorimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 242,
+    "name": "Shoutmon Y",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_Y.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 249,
+    "name": "Hi Mugendramon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Hi_Mugendramon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 156,
+        "skill": "Mugen Cannon",
+        "translation": "Infinity Cannon",
+        "description": "Fires superdreadnought-class energy waves from its two cannons. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1188,
+        "digimon": "Mugendramon",
+        "condition": "with Scorpiomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 251,
+    "name": "Death Tyranomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Death_Tyranomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1997",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 717,
+        "skill": "Death Beam",
+        "translation": "",
+        "description": "Fires a beam from its mouth. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1368,
+        "digimon": "Death Devimon",
+        "condition": ""
+      },
+      {
+        "id": 1382,
+        "digimon": "Deathmon (C'mon Digimon Version)",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 238,
+        "digimon": "Death Metal Greymon",
+        "condition": ""
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "name": "Xros Up Opossummon (Candmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Opossummon_(Candmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1294,
+        "digimon": "Opossummon",
+        "condition": "with Candmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 312,
+    "name": "Dark Knightmon (Gulfmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dark_Knightmon_(Gulfmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 920,
+        "digimon": "Dark Knightmon (Duskmon)",
+        "condition": "with Gulfmon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 1277,
+        "digimon": "Dark Knightmon (Blastmon)",
+        "condition": "with Blastmon"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "name": "Xros Up Ballistamon (Revolmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Ballistamon_(Revolmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 920,
+        "skill": "Heavy the Shot",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1119,
+        "digimon": "Ballistamon",
+        "condition": "with Revolmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 319,
+    "name": "Dracomon + Cyberdramon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dracomon___Cyberdramon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 115,
+        "skill": "Death Divider",
+        "translation": "",
+        "description": "Spins around its lance's shaft and attacks with its tail. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1192,
+        "digimon": "Dracomon",
+        "condition": "with Cyberdramon 2010 Anime Version"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 326,
+    "name": "Beso Bombmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 328,
+    "name": "Batterimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Batterimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 339,
+    "name": "Ballistamon SR",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ballistamon_SR.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 977,
+        "skill": "Sextet Storm",
+        "translation": "",
+        "description": "Unleashes its ordinance of six cannons. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1119,
+        "digimon": "Ballistamon",
+        "condition": "w/ Dorulumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 345,
+    "name": "Snatchmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Snatchmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2002",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 337,
+        "digimon": "BEMmon",
+        "condition": "x3"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 660,
+        "digimon": "Ragnamon",
+        "condition": "with the Gunslinger Satellite"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "name": "Aequcedramon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Aequcedramon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 375,
+    "name": "Chibick Sword",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Chibick_Sword.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 9,
+        "digimon": "Chibickmon",
+        "condition": "with the rare Pickmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 377,
+    "name": "Copymon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Copymon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2018",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 386,
+    "name": "Shoutmon X6",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_X6.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 1118,
+        "skill": "Xros Shooting Rocker",
+        "translation": "",
+        "description": "Sets its McField-brand mic on fire, then swings it down on an enemy, causing an explosion in the face of Xros Heart's logo. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 684,
+        "digimon": "Shoutmon DX",
+        "condition": "with Ballistamon, Dorulumon, Starmons"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 416,
+    "name": "Negamon (Evolved Form)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Negamon_(Evolved_Form).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1325,
+        "digimon": "Negamon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 984,
+        "digimon": "Abbadomon",
+        "condition": "including  Core"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "name": "Shoutmon SH",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_SH.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "w/ Starmons"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 432,
+    "name": "Rampage Greymon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Rampage_Greymon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 1239,
+        "skill": "Giga Tempest",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 706,
+        "digimon": "Metal Greymon",
+        "condition": "with Dorulumon and Ballistamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 441,
+    "name": "Ochi Musyamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ochi_Musyamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 461,
+    "name": "Xros Up Tuwarmon (Superstarmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Tuwarmon_(Superstarmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 1303,
+        "skill": "Digi Ninpou: Hoshi Arashi",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 323,
+        "digimon": "Tuwarmon",
+        "condition": "with Superstarmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 462,
+    "name": "Super Dark Knightmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Super_Dark_Knightmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 542,
+        "digimon": "Dark Knightmon",
+        "condition": "with Skull Greymon and Skull Satamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 507,
+    "name": "Xros Up Arresterdramon (Metal Tyranomon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Metal_Tyranomon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 91,
+        "skill": "Spin Caliber",
+        "translation": "",
+        "description": "Bisects with a swing of a super-sized Tail Anchor. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Metal Tyranomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 513,
+    "name": "ShouCutemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/ShouCutemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 977,
+        "digimon": "Cutemon",
+        "condition": "with Shoutmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 527,
+    "name": "Tafa Pandamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Tafa_Pandamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2004",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 217,
+        "digimon": "Pala Pandamon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 537,
+    "name": "Greymon + Skull Knightmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Greymon___Skull_Knightmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 602,
+        "digimon": "Skull Knightmon",
+        "condition": "with Greymon"
+      },
+      {
+        "id": 275,
+        "digimon": "Greymon",
+        "condition": "with Skull Knightmon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": null,
+        "digimon": "Shoutmon X5 + Skull Greymon",
+        "condition": "with Shoutmon X5"
+      }
+    ]
+  },
+  {
+    "id": 551,
+    "name": "Ganvivormon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ganvivormon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 566,
+    "name": "Beelzebumon + Revolmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Beelzebumon___Revolmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 1553,
+        "skill": "Death the Cannon Spiral",
+        "translation": "",
+        "description": "Fires energy bullets from both its guns that spiral towards the enemy and converge on impact. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 544,
+        "digimon": "Beelzebumon (2010 Anime Version)",
+        "condition": "with Revolmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 578,
+    "name": "Ballistamon MC",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ballistamon_MC.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1119,
+        "digimon": "Ballistamon",
+        "condition": "with Mushmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 588,
+    "name": "Dark Knightmon (Lilithmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dark_Knightmon_(Lilithmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1277,
+        "digimon": "Dark Knightmon (Blastmon)",
+        "condition": "with Lilithmon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 1273,
+        "digimon": "Zeed Millenniumon",
+        "condition": "with Millenniumon"
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "name": "Ohakadamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ohakadamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1997",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 619,
+    "name": "Apollomon Whispered",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Apollomon_Whispered.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 1675,
+        "skill": "Arrow of Whispered",
+        "translation": "",
+        "description": "Hurls a blue blast from its palm. "
+      },
+      {
+        "id": 1674,
+        "skill": "Nageki no Taiyou",
+        "translation": "Lamenting Sun",
+        "description": "Generates an enormous dark sun and casts it at the target. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 408,
+        "digimon": "Apollomon",
+        "condition": "with Whispered"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 50,
+        "digimon": "Apollomon Darkness Mode",
+        "condition": "with Deadly Axemon"
+      }
+    ]
+  },
+  {
+    "id": 621,
+    "name": "Shoutmon X3SD",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_X3SD.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 1679,
+        "skill": "Victory Spear",
+        "translation": "",
+        "description": " "
+      },
+      {
+        "id": 1678,
+        "skill": "Acid Typhoon",
+        "translation": "",
+        "description": " "
+      },
+      {
+        "id": 1677,
+        "skill": "Billion Stab",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 187,
+        "digimon": "Shoutmon X3",
+        "condition": "with Skull Knightmon and Deadly Axemon or Dark Knightmon"
+      },
+      {
+        "id": 1414,
+        "digimon": "Shoutmon X2",
+        "condition": "with Dorulumon and Dark Knightmon"
+      },
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "with Dorulumon, Ballistamon, Skull Knightmon and Deadly Axemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 634,
+    "name": "Chokimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Chokimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 637,
+    "name": "Pickmons Slingshot",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pickmons_Slingshot.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 471,
+        "digimon": "Pickmon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 652,
+    "name": "Fuximon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Fuximon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2004",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 672,
+    "name": "Xros Up Arresterdramon (Blossomon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Blossomon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Blossomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 680,
+    "name": "Ice Devimon Enhancement Absorbent",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ice_Devimon_Enhancement_Absorbent.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1360,
+        "digimon": "Ice Devimon",
+        "condition": "with Icemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 688,
+    "name": "Neo Vamdemon Darkness Mode (Vampire Army)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Neo_Vamdemon_Darkness_Mode_(Vampire_Army).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 1857,
+        "skill": "Giga Cardiac Raid",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 427,
+        "digimon": "Neo Vamdemon",
+        "condition": "with Devimon and Lady Devimon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": null,
+        "digimon": "Neo Vamdemon Darkness Mode (MetalGreymon)",
+        "condition": "with Metal Greymon"
+      }
+    ]
+  },
+  {
+    "id": 710,
+    "name": "Rurimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Rurimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 718,
+    "name": "Guumon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Guumon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 720,
+    "name": "Aircraft Carrier Whamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Aircraft_Carrier_Whamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 724,
+    "name": "Hubmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Hubmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 729,
+    "name": "Pawn Gaossmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pawn_Gaossmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 975,
+        "digimon": "Gaossmon",
+        "condition": "with Pawn Chessmon White"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 749,
+    "name": "Xros Up Shoutmon (Chibi Kamemon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Shoutmon_(Chibi_Kamemon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2017,
+        "skill": "Rock Damashī Arrow",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1349,
+        "digimon": "Shoutmon (King Ver.)",
+        "condition": "with Chibi Kamemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 754,
+    "name": "Etemon Chaos",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Etemon_Chaos.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 64,
+        "skill": "Grateful Knuckle",
+        "translation": "",
+        "description": "Punches the enemy. "
+      },
+      {
+        "id": 65,
+        "skill": "Dark Spirits",
+        "translation": "",
+        "description": "Shoots a ball of darkness which wipes out anything it touches. "
+      },
+      {
+        "id": 2024,
+        "skill": "Dark Spirits Chaos",
+        "translation": "",
+        "description": "A more powerful version of Dark Spirits. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 20,
+        "digimon": "Etemon",
+        "condition": "with Dark Network"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 901,
+        "digimon": "Metal Etemon",
+        "condition": ""
+      }
+    ]
+  },
+  {
+    "id": 761,
+    "name": "Xros Up Arresterdramon (Giga Breakdramon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Giga_Breakdramon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2037,
+        "skill": "Infinity Prism Garrett",
+        "translation": "",
+        "description": "Turns its drills into burning energy which bore through the enemy. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Giga Breakdramon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 787,
+    "name": "Dorbickmon Darkness Mode (Flare Lizamon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dorbickmon_Darkness_Mode_(Flare_Lizamon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 996,
+        "digimon": "Dorbickmon Darkness Mode (Huanglongmon)",
+        "condition": "with Flare Lizamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 801,
+    "name": "Xros Up Arresterdramon (Orgemon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Orgemon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Orgemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 810,
+    "name": "Mach Leomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mach_Leomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2156,
+        "skill": "Sonic Thrust",
+        "translation": "",
+        "description": "Dances quickly around foe while stabbing with daggers. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 8,
+        "digimon": "Mush-Upped Mach Leomon",
+        "condition": "with Green Zone's Code Crown, Abyss Truffle and Drimogemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 825,
+    "name": "Majuu Lilithmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Majuu_Lilithmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1150,
+        "digimon": "Lilithmon",
+        "condition": "with Blastmon and Hell's Field"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 834,
+    "name": "Shoutmon X2 (Incomplete X4)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_X2_(Incomplete_X4).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "with Ballistamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 840,
+    "name": "Mad Leomon (Orochi Mode)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mad_Leomon_(Orochi_Mode).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 947,
+        "digimon": "Mad Leomon",
+        "condition": "with Orochimon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 843,
+    "name": "Xros Up Arresterdramon (Sparrowmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Sparrowmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2227,
+        "skill": "Wing Spiral Shredder",
+        "translation": "",
+        "description": "Rotates at high speed to shred the opponent to pieces with its Tail Anchor.. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Sparrowmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 849,
+    "name": "Xros Up Shoutmon (Pinochimon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Shoutmon_(Pinochimon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2248,
+        "skill": "Burning Hammer",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1349,
+        "digimon": "Shoutmon (King Ver.)",
+        "condition": "with Pinochimon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 854,
+    "name": "Balli Bastemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Balli_Bastemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2256,
+        "skill": "Ultimate Speaker",
+        "translation": "",
+        "description": "Emits a low tone from the speaker in its belly that shatters the opponent. "
+      },
+      {
+        "id": 2255,
+        "skill": "Belly Balli Dance",
+        "translation": "",
+        "description": "Bewitches the enemy wth its belly dance. "
+      },
+      {
+        "id": 2258,
+        "skill": "Sonic Dancing",
+        "translation": "",
+        "description": "Dances and emits sound waves from its speaker. "
+      },
+      {
+        "id": 2257,
+        "skill": "Cat Speaker",
+        "translation": "",
+        "description": "Emits a high tone from the speaker in its belly and shatters the opponent. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1119,
+        "digimon": "Ballistamon",
+        "condition": "with Bastemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 897,
+    "name": "Huntermon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Huntermon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "en_us",
+        "description": "Huntermon is a Contest Digimon. "
+      },
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 907,
+    "name": "Dorulumon + Starmons",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dorulumon___Starmons.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 692,
+        "digimon": "Dorulumon",
+        "condition": "with Starmon + Pickmons"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 920,
+    "name": "Dark Knightmon (Duskmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dark_Knightmon_(Duskmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 542,
+        "digimon": "Dark Knightmon",
+        "condition": "with Duskmon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 312,
+        "digimon": "Dark Knightmon (Gulfmon)",
+        "condition": "with Gulfmon"
+      }
+    ]
+  },
+  {
+    "id": 958,
+    "name": "Xros Up Mervamon (Beelzebumon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Mervamon_(Beelzebumon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2502,
+        "skill": "Sexy the Cannon",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1393,
+        "digimon": "Mervamon",
+        "condition": "with Beelzebumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 960,
+    "name": "Dorbickmon Darkness Mode (Dragon Army)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dorbickmon_Darkness_Mode_(Dragon_Army).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2506,
+        "skill": "Dragon Breath Tonic Fire",
+        "translation": "",
+        "description": "Fires streams of flame from the symbols on its chest. "
+      },
+      {
+        "id": 2505,
+        "skill": "Tyrant Collbrande",
+        "translation": "",
+        "description": "Transforms its anger into a flaming sword and attacks with it. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 996,
+        "digimon": "Dorbickmon Darkness Mode (Huanglongmon)",
+        "condition": "with Brachiomon, Flare Lizarmon, Gigadramon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 968,
+    "name": "Sparrowmon AB",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Sparrowmon_AB.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 149,
+        "skill": "???",
+        "translation": "",
+        "description": "? "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 704,
+        "digimon": "Sparrowmon",
+        "condition": "with Ballistamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 981,
+    "name": "Revolmon + Dorulu Cannon + Starmons",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Revolmon___Dorulu_Cannon___Starmons.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 579,
+        "digimon": "Revolmon",
+        "condition": "with Starmons and Dorulumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 989,
+    "name": "Mirror Ballmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mirror_Ballmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1018,
+    "name": "Guidemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Guidemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2005",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1037,
+    "name": "Danmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Danmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1038,
+    "name": "Deadly Tuwarmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Deadly_Tuwarmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2691,
+        "skill": "??",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 323,
+        "digimon": "Tuwarmon",
+        "condition": "with Deadly Axemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1039,
+    "name": "G-Cutemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/G-Cutemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2692,
+        "skill": "Greatest Sonic Wave",
+        "translation": "",
+        "description": "Beats its stomach drum and emits a shockwave from its mouth. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 977,
+        "digimon": "Cutemon",
+        "condition": "with Dondokomon, Knightmon, Pawn Chessmons, Bastemon, Chibi Kamemon and Jijimon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1050,
+    "name": "Jiji Shoutmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Jiji_Shoutmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 973,
+        "digimon": "Shoutmon",
+        "condition": "with Jijimon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1059,
+    "name": "Xros Up Astamon (Cerberumon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Astamon_(Cerberumon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 552,
+        "digimon": "Astamon",
+        "condition": "with Cerberumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1062,
+    "name": "Dark Knightmon (Bagramon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dark_Knightmon_(Bagramon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2091,
+        "skill": "God of Death Snatcher",
+        "translation": "",
+        "description": "Rips out the opponent's soul. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 542,
+        "digimon": "Dark Knightmon",
+        "condition": "with Bagramon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 783,
+        "digimon": "Darkness Bagramon",
+        "condition": ""
+      }
+    ]
+  },
+  {
+    "id": 1065,
+    "name": "Punch Narabimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Punch_Narabimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      },
+      {
+        "origin": "fanmade",
+        "language": "en_us",
+        "description": "Punch Narabimon is a Contest Digimon. "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1067,
+    "name": "Xros Up Arresterdramon (Sagomon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Arresterdramon_(Sagomon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 91,
+        "skill": "Spin Caliber",
+        "translation": "",
+        "description": "Bisects with a swing of a super-sized Tail Anchor. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 440,
+        "digimon": "Gumdramon",
+        "condition": "with Sagomon"
+      },
+      {
+        "id": 30,
+        "digimon": "Arresterdramon",
+        "condition": "with Sagomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1072,
+    "name": "Shoutmon X5S",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Shoutmon_X5S.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2780,
+        "skill": "Space Chakram",
+        "translation": "",
+        "description": " "
+      },
+      {
+        "id": 2778,
+        "skill": "Helio Slasher",
+        "translation": "",
+        "description": " "
+      },
+      {
+        "id": 2779,
+        "skill": "Cosmo Victory",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 41,
+        "digimon": "Shoutmon X4S",
+        "condition": "with Sparrowmon"
+      },
+      {
+        "id": 738,
+        "digimon": "Shoutmon X4",
+        "condition": "with Spadamon and Sparrowmon"
+      },
+      {
+        "id": 1132,
+        "digimon": "Shoutmon X5",
+        "condition": "with Spadamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1078,
+    "name": "Kandoushichaundamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Kandoushichaundamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1999",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1081,
+    "name": "Woodwoodymon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Woodwoodymon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2014",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1086,
+    "name": "Reverse Weddinmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Reverse_Weddinmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [],
+    "skills": [
+      {
+        "id": 2815,
+        "skill": "Candle Service Infer",
+        "translation": "",
+        "description": "A difficult to avoid all-direction attack released from the flames on its head. "
+      },
+      {
+        "id": 2814,
+        "skill": "Crazy Cracker",
+        "translation": "",
+        "description": "Bursts confetti from the crackers on its right arm. "
+      },
+      {
+        "id": 2813,
+        "skill": "Fork Dance",
+        "translation": "",
+        "description": "Strikes the enemy with the forks on its left arm. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 538,
+        "digimon": "Weddinmon",
+        "condition": "with Shortmon and Candmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1089,
+    "name": "Sethmon Wild Mode",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Sethmon_Wild_Mode.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 2830,
+        "skill": "Grand Heat Storm",
+        "translation": "",
+        "description": " "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 751,
+        "digimon": "Sethmon",
+        "condition": "with Gryzmon and Dobermon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1090,
+    "name": "Xros Up Astamon (Triceramon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Xros_Up_Astamon_(Triceramon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 552,
+        "digimon": "Astamon",
+        "condition": "with Triceramon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1106,
+    "name": "Madomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Madomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1109,
+    "name": "Pandamon (2004 Manhua Version)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pandamon_(2004_Manhua_Version).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2004",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 217,
+        "digimon": "Pala Pandamon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1152,
+    "name": "Gravimon Darkness Mode",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Gravimon_Darkness_Mode.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 1525,
+        "skill": "High Gravity Pressure",
+        "translation": "",
+        "description": "Wraps its hands about the opponent and compresses them. "
+      },
+      {
+        "id": 1526,
+        "skill": "Octa Gravity",
+        "translation": "",
+        "description": "Manipulates the opponent's specific gravity with beams from its eight tentacles. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 556,
+        "digimon": "Gravimon",
+        "condition": "with Centalmon, Sagittarimon, Cerberumon, Crossmon, Thunderbirmon and Hippogriffomon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1168,
+    "name": "Venom Vamdemon Undead",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Venom_Vamdemon_Undead.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2017",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1212,
+    "name": "Pyontomon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pyontomon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2020",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1229,
+    "name": "Ice Devimon Daipenmon Enhancement Absorbent",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Ice_Devimon_Daipenmon_Enhancement_Absorbent.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 3145,
+        "skill": "Zettaireido Jigoku no Ice Crusher",
+        "translation": "Absolute Zero Hell Ice Crusher",
+        "description": "Turns the crank on its head, vomiting a continuous stream of ice shavings that freezes the enemy. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1360,
+        "digimon": "Ice Devimon",
+        "condition": "with Daipenmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1249,
+    "name": "Mad Leomon (Final Mode)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mad_Leomon_(Final_Mode).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 947,
+        "digimon": "Mad Leomon",
+        "condition": "with Hanumon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1260,
+    "name": "Death Meramon (C'mon Digimon Version)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Death_Meramon_(C'mon_Digimon_Version).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1997",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 238,
+        "digimon": "Death Metal Greymon",
+        "condition": ""
+      },
+      {
+        "id": 1382,
+        "digimon": "Deathmon (C'mon Digimon Version)",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1277,
+    "name": "Dark Knightmon (Blastmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Dark_Knightmon_(Blastmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 312,
+        "digimon": "Dark Knightmon (Gulfmon)",
+        "condition": "with Blastmon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 588,
+        "digimon": "Dark Knightmon (Lilithmon)",
+        "condition": "with Lilithmon"
+      }
+    ]
+  },
+  {
+    "id": 1283,
+    "name": "Golem Jiji Kamemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Golem_Jiji_Kamemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1008,
+        "digimon": "Golemon",
+        "condition": "with Chibi Kamemon and Jijimon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1314,
+    "name": "Mervamon Wide Hi-Vision Sword",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Mervamon_Wide_Hi-Vision_Sword.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 1393,
+        "digimon": "Mervamon",
+        "condition": "with Wisemon and Hi-Vision Monitamon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1321,
+    "name": "Neo Vamdemon Darkness Mode (Metal Greymon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Neo_Vamdemon_Darkness_Mode_(Metal_Greymon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 688,
+        "digimon": "Neo Vamdemon Darkness Mode (Vampire Army)",
+        "condition": "with Metal Greymon"
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 1420,
+        "digimon": "Neo Vamdemon Darkness Mode (Shoutmon)",
+        "condition": "with Shoutmon and Lopmon"
+      }
+    ]
+  },
+  {
+    "id": 1328,
+    "name": "Paamon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Paamon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1340,
+    "name": "Rare Star Sword",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Rare_Star_Sword.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2010",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 3362,
+        "skill": "Shinonome Ittougiri",
+        "translation": "Shinonome Single-slice",
+        "description": "Performs a decisive strike with the Rare Star Sword. "
+      },
+      {
+        "id": 3365,
+        "skill": "Kōtō Ryūseizan",
+        "translation": "Kōtō Meteor Slash",
+        "description": "Performs a mighty horizontal slash that can cut through chains. "
+      },
+      {
+        "id": 3364,
+        "skill": "Kōtō Kiri",
+        "translation": "Kōtō Slice",
+        "description": "Performs a slice with the Rare Star Sword. "
+      },
+      {
+        "id": 3363,
+        "skill": "Kōtō Slash",
+        "translation": "",
+        "description": "Throws the Rare Star Sword like an arrow. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 351,
+        "digimon": "Starmons",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1353,
+    "name": "Umon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Umon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2001",
+    "descriptions": [],
+    "skills": [],
+    "priorEvolutions": [],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1359,
+    "name": "Deadly Tuwarmon Hell Mode",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Deadly_Tuwarmon_Hell_Mode.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 3414,
+        "skill": "Burning Boogie",
+        "translation": "",
+        "description": "Fires streams of fire and boiling red liquid from its armor. "
+      },
+      {
+        "id": 3415,
+        "skill": "Tuwarmon Missile Storm",
+        "translation": "",
+        "description": "Fires the spikes from its shoulders as missiles. "
+      },
+      {
+        "id": 3413,
+        "skill": "Hell's Mantis Dance",
+        "translation": "",
+        "description": "Spins, swinging its Mantis Arms as it whirls towards the enemy. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 323,
+        "digimon": "Tuwarmon",
+        "condition": "with Deadly Axemon, energy from Hell's Field, Sethmon, as well as multiple Gryzmon, Dobermon, Gorimon, Bullmon and Goatmon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1368,
+    "name": "Death Devimon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Death_Devimon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1997",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 3435,
+        "skill": "Death Knuckle",
+        "translation": "",
+        "description": "Extends its arm to attack. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 1382,
+        "digimon": "Deathmon (C'mon Digimon Version)",
+        "condition": ""
+      },
+      {
+        "id": 66,
+        "digimon": "Death Airdramon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": [
+      {
+        "id": 251,
+        "digimon": "Death Tyranomon",
+        "condition": ""
+      }
+    ]
+  },
+  {
+    "id": 1382,
+    "name": "Deathmon (C'mon Digimon Version)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Deathmon_(C'mon_Digimon_Version).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "1997",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 66,
+        "digimon": "Death Airdramon",
+        "condition": ""
+      },
+      {
+        "id": 1368,
+        "digimon": "Death Devimon",
+        "condition": ""
+      },
+      {
+        "id": 238,
+        "digimon": "Death Metal Greymon",
+        "condition": ""
+      },
+      {
+        "id": 1260,
+        "digimon": "Death Meramon (C'mon Digimon Version)",
+        "condition": ""
+      },
+      {
+        "id": 251,
+        "digimon": "Death Tyranomon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1398,
+    "name": "Giga Waru Monzaemon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Giga_Waru_Monzaemon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [
+      {
+        "id": 3496,
+        "skill": "Giga Heartbreak Attack",
+        "translation": "",
+        "description": "Attacks with an electrified heart of pink energy. "
+      },
+      {
+        "id": 502,
+        "skill": "Heartbreak Attack",
+        "translation": "",
+        "description": "With the broken hearts it sends out, it steals its opponent's will to fight back by making them cry uncontrollably. "
+      }
+    ],
+    "priorEvolutions": [
+      {
+        "id": 164,
+        "digimon": "Waru Monzaemon",
+        "condition": "with Monzaemon"
+      },
+      {
+        "id": 617,
+        "digimon": "Monzaemon",
+        "condition": "with Waru Monzaemon"
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1399,
+    "name": "Pure Skull Knightmon",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Pure_Skull_Knightmon.png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2012",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": 602,
+        "digimon": "Skull Knightmon",
+        "condition": ""
+      }
+    ],
+    "nextEvolutions": []
+  },
+  {
+    "id": 1420,
+    "name": "Neo Vamdemon Darkness Mode (Shoutmon)",
+    "xAntibody": false,
+    "images": [
+      {
+        "href": "https://digimon-api.com/images/digimon/w/Neo_Vamdemon_Darkness_Mode_(Shoutmon).png",
+        "transparent": false
+      }
+    ],
+    "levels": [],
+    "types": [],
+    "attributes": [],
+    "fields": [],
+    "releaseDate": "2011",
+    "descriptions": [
+      {
+        "origin": "fanmade",
+        "language": "jap",
+        "description": " "
+      }
+    ],
+    "skills": [],
+    "priorEvolutions": [
+      {
+        "id": null,
+        "digimon": "Neo Vamdemon Darkness Mode (MetalGreymon)",
+        "condition": "with Shoutmon and Lopmon"
+      }
+    ],
+    "nextEvolutions": []
+  }
+]
