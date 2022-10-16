@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useMemo, useState } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -9,17 +9,52 @@ import Box from '@mui/material/Box';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
+import { useDispatch, useSelector } from 'react-redux';
+import { useForm } from '../hooks/useForm';
+import { startRegisterWithEmailPassword } from '../store/auth';
+import { Alert } from '@mui/material';
+
+const formValidations = {
+    email: [(value) => value.includes('@'), 'El correo debe de tener una @'],
+    password: [(value) => value.length >= 6, 'El password debe de tener más de 6 letras.'],
+    firstName: [(value) => value.length >= 1, 'El nombre es obligatorio.'],
+    lastName: [(value) => value.length >= 1, 'El apellido es obligatorio.'],
+}
+const formData = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    password: ''
+}
+
+export default function RegisterPage() {
+
+    const dispatch = useDispatch();
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
+    const { status, errorMessage } = useSelector(state => state.auth);
+    const isAuthenticating = useMemo(() => status == 'checking', [status])
+
+    const {
+        formState, firstName, lastName, email, password, onInputChange,
+        isFormValid, firstNameValid, lastNameValid, emailValid, passwordValid,
+    } = useForm(formData, formValidations);
 
 
-export default function SignUp() {
-    const handleSubmit = (event) => {
+    console.log(firstNameValid);
+    console.log('formsubmitted:', formSubmitted)
+
+    const onSubmit = (event) => {
         event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
-    };
+        setFormSubmitted(true);
+
+        if (!isFormValid) return;
+
+        dispatch(startRegisterWithEmailPassword(formState));
+    }
+
+
+
 
     return (
         <Container component="main" maxWidth="xs">
@@ -36,14 +71,18 @@ export default function SignUp() {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Sign up
+                    Registrase
                 </Typography>
-                <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 3 }}>
+                <Box component="form" noValidate onSubmit={onSubmit} sx={{ mt: 3 }}>
                     <Grid container spacing={2}>
                         <Grid item xs={12} sm={6}>
                             <TextField
                                 autoComplete="given-name"
                                 name="firstName"
+                                value={firstName}
+                                error={!!firstNameValid && formSubmitted}
+                                helperText={formSubmitted && firstNameValid}
+                                onChange={onInputChange}
                                 required
                                 fullWidth
                                 id="firstName"
@@ -56,6 +95,10 @@ export default function SignUp() {
                                 required
                                 fullWidth
                                 id="lastName"
+                                value={lastName}
+                                error={!!lastNameValid && formSubmitted}
+                                helperText={formSubmitted && lastNameValid}
+                                onChange={onInputChange}
                                 label="Last Name"
                                 name="lastName"
                                 autoComplete="family-name"
@@ -66,6 +109,10 @@ export default function SignUp() {
                                 required
                                 fullWidth
                                 id="email"
+                                value={email}
+                                error={!!emailValid && formSubmitted}
+                                helperText={formSubmitted && emailValid}
+                                onChange={onInputChange}
                                 label="Email Address"
                                 name="email"
                                 autoComplete="email"
@@ -78,23 +125,36 @@ export default function SignUp() {
                                 name="password"
                                 label="Password"
                                 type="password"
+                                onChange={onInputChange}
+                                value={password}
+                                error={!!passwordValid && formSubmitted}
+                                helperText={formSubmitted && passwordValid}
                                 id="password"
                                 autoComplete="new-password"
                             />
                         </Grid>
                     </Grid>
+                    <Grid
+                        item
+                        xs={12}
+                        display={!!errorMessage ? '' : 'none'}
+                    >
+                        <Alert severity='error'>{errorMessage}</Alert>
+                    </Grid>
+
                     <Button
                         type="submit"
                         fullWidth
                         variant="contained"
                         sx={{ mt: 3, mb: 2 }}
+                        disabled={isAuthenticating}
                     >
-                        Sign Up
+                        Registrarse
                     </Button>
                     <Grid container justifyContent="flex-end">
                         <Grid item>
-                            <Link href="#" variant="body2">
-                                Already have an account? Sign in
+                            <Link href="/login" variant="body2">
+                                Ya tienes una cuenta? Haz login
                             </Link>
                         </Grid>
                     </Grid>

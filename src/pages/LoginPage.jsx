@@ -1,6 +1,6 @@
 
 
-import * as React from 'react';
+import React, { useMemo } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -12,22 +12,35 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { LockClockOutlined, LockOutlined } from '@mui/icons-material';
+import { Google, LockClockOutlined, LockOutlined } from '@mui/icons-material';
+import { useDispatch, useSelector } from 'react-redux';
+import { useForm } from '../hooks/useForm';
+import { Alert } from '@mui/material';
+import { startGoogleSignIn, startLoginWithEmailPassword } from '../store/auth';
 
 
 
 
 
+export default function LoginPage() {
 
-export default function SignInSide() {
-    const handleSubmit = (event) => {
+    const dispatch = useDispatch();
+    const { status, errorMessage } = useSelector(state => state.auth);
+    const isAuthenticating = useMemo(() => status == 'checking', [status])
+
+    const { email, password, onInputChange } = useForm({
+        email: '',
+        password: ''
+    });
+
+    const onSubmit = (event) => {
         event.preventDefault();
-        const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
-    };
+        dispatch(startLoginWithEmailPassword({ email, password }));
+    }
+
+    const onGoogleSignIn = () => {
+        dispatch(startGoogleSignIn());
+    }
 
     return (
 
@@ -61,9 +74,9 @@ export default function SignInSide() {
                         <LockOutlined />
                     </Avatar>
                     <Typography component="h1" variant="h5">
-                        Sign in
+                        Login
                     </Typography>
-                    <Box component="form" noValidate onSubmit={handleSubmit} sx={{ mt: 1 }}>
+                    <Box component="form" noValidate onSubmit={onSubmit} sx={{ mt: 1 }}>
                         <TextField
                             margin="normal"
                             required
@@ -71,6 +84,8 @@ export default function SignInSide() {
                             id="email"
                             label="Email Address"
                             name="email"
+                            value={email}
+                            onChange={onInputChange}
                             autoComplete="email"
                             autoFocus
                         />
@@ -79,23 +94,49 @@ export default function SignInSide() {
                             required
                             fullWidth
                             name="password"
+                            value={password}
+                            onChange={onInputChange}
                             label="Password"
                             type="password"
                             id="password"
                             autoComplete="current-password"
                         />
-                        <Button
-                            type="submit"
-                            fullWidth
-                            variant="contained"
-                            sx={{ mt: 3, mb: 2 }}
-                        >
-                            Sign In
-                        </Button>
+                        <Grid
+                            container
+                            display={!!errorMessage ? '' : 'none'}
+                            sx={{ mt: 1 }}>
+                            <Grid
+                                item
+                                xs={12}
+                            >
+                                <Alert severity='error'>{errorMessage}</Alert>
+                            </Grid>
+                        </Grid>
+                        <Grid container spacing={2} sx={{ mb: 2, mt: 1 }}>
+                            <Grid item xs={12} sm={6}>
+                                <Button
+                                    disabled={isAuthenticating}
+                                    type="submit"
+                                    variant='contained'
+                                    fullWidth>
+                                    Login
+                                </Button>
+                            </Grid>
+                            <Grid item xs={12} sm={6}>
+                                <Button
+                                    disabled={isAuthenticating}
+                                    variant='contained'
+                                    fullWidth
+                                    onClick={onGoogleSignIn}>
+                                    <Google />
+                                    <Typography sx={{ ml: 1 }}>Google</Typography>
+                                </Button>
+                            </Grid>
+                        </Grid>
                         <Grid container>
                             <Grid item>
-                                <Link href="#" variant="body2">
-                                    {"Don't have an account? Sign Up"}
+                                <Link href="/register" variant="body2">
+                                    {"No tienes una cuenta? Creala ahora"}
                                 </Link>
                             </Grid>
                         </Grid>

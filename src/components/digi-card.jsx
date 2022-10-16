@@ -11,29 +11,25 @@ import Typography from '@mui/material/Typography';
 import { red } from '@mui/material/colors';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
+import { Button } from '@mui/material';
 
 
 
 
-export default function DigiCard({ name, image, level, type, releaseDate }) {
+const DigiCard = ({ name, image, level, type, releaseDate }) => {
     return (
         <Card sx={{ maxWidth: 345 }}>
-            <CardHeader
-                avatar={
-                    <Avatar sx={{ bgcolor: red[500] }} >
-                        {name[0].toUpperCase()}
-                    </Avatar>
-                }
-                title={name}
-                subheader={releaseDate}
-            />
             <CardMedia
                 component="img"
                 height="194"
                 image={image}
                 alt={name}
+                loading="lazy"
             />
             <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                    {name}
+                </Typography>
                 <Typography variant="body2" color="text.secondary">
                     Type : {type}
                     <br />
@@ -41,13 +37,10 @@ export default function DigiCard({ name, image, level, type, releaseDate }) {
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <IconButton aria-label="add to favorites">
-                    <FavoriteIcon />
-                </IconButton>
-                <IconButton aria-label="share">
-                    <ShareIcon />
-                </IconButton>
+                <Button endIcon={<FavoriteIcon />} variant="contained" color="secondary">Agregar a Favoritos</Button>
             </CardActions>
         </Card>
     );
 }
+
+export default React.memo(DigiCard)
