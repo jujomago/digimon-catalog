@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import types from '../data/types.json'
 import levels from '../data/levels.json'
 import { useDispatch, useSelector } from 'react-redux'
-import { searchByLevel, searchByType, searchName } from '../store/digimon'
+import { searchByLevel, searchByType, searchName, setIsFiltering } from '../store/digimon'
 import { useForm } from '../hooks/useForm'
 import { useNavigate } from 'react-router-dom'
 
@@ -18,6 +18,9 @@ const Sidebar = () => {
     });
 
     useEffect(() => {
+        console.log('filterType:', filterType);
+        console.log('filterLevel:', filterLevel);
+        console.log('filterName:', filterName);
 
         if (filterName?.trim().length > 5) {
             dispatch(searchName(filterName))
@@ -28,6 +31,9 @@ const Sidebar = () => {
         if (filterLevel)
             dispatch(searchByLevel(filterLevel))
 
+        if (!filterType && !filterLevel && !filterName) {
+            dispatch(setIsFiltering(false))
+        }
 
 
     }, [filterName, filterType, filterLevel])

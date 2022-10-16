@@ -11,6 +11,7 @@ import RegisterPage from '../pages/RegisterPage';
 
 
 export const AppRouter = () => {
+    console.log('AppRouter');
     useCheckAuth();
 
     //  if (status === 'checking') return <h3>Loading ...</h3>
@@ -21,6 +22,7 @@ export const AppRouter = () => {
             <Route path="/login" element={<PublicLayout component={<LoginPage />} />} />
             <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
             <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
+            <Route path="*" element={<h4>Sorry, not Found</h4>} />
         </Routes>
     )
 }

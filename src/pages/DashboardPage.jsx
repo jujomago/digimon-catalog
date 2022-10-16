@@ -15,11 +15,10 @@ import { startAddingFavorite, startLoadingDigimons, startRemovingFAvorite } from
 
 
 const Dashboard = () => {
-    const { all, filtered, favoritos, loading, isFiltering } = useSelector(state => state.digimon);
+    const { all, filtered, loading, isFiltering, isProcessingDelete, isProcessingAdd, processingId } = useSelector(state => state.digimon);
     const dispatch = useDispatch();
 
 
-    const lista = isFiltering ? filtered : all;
     useEffect(() => {
         dispatch(startLoadingDigimons());
     }, []);
@@ -31,22 +30,23 @@ const Dashboard = () => {
         dispatch(startRemovingFAvorite(id));
     }
 
-    const favoriteIds = favoritos.map(item => item.id);
-
+    const datos = isFiltering ? filtered : all;
     return (
         <Grid container spacing={3}>
-            {loading && <p>Loading...</p>}
-            {lista.map(({ id, name, images, releaseDate, types, levels }) => (
+            {loading && <p>Loading Catalog...</p>}
+            {!loading && datos.map(({ id, name, isFavorite, images, releaseDate, types, levels }) => (
                 <Grid xs={12} sm={6} md={4} lg={3} key={id}>
                     <DigiCard
                         id={id}
                         name={name}
                         image={images[0].href}
-                        isFavorito={favoriteIds.includes(id)}
+                        isFavorito={isFavorite}
                         type={(!types.length) ? '-' : types[0].type}
                         level={(!levels.length) ? '-' : levels[0].level}
                         releaseDate={releaseDate}
                         onAddFavorito={() => handleAddFavorito(id)}
+                        isProcessingDelete={isProcessingDelete && processingId === id}
+                        isProcessingAdd={isProcessingAdd && processingId === id}
                         onRemoveFavorito={() => handleRemoveFavorito(id)}
                     />
                 </Grid>

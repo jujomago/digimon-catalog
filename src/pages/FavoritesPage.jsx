@@ -15,8 +15,8 @@ import { startAddingFavorite, startLoadingDigimons, startLoadingFavorites, start
 
 
 const FavoritePage = () => {
-    const { favoritos, loadingFavorites } = useSelector(state => state.digimon);
-    console.log('laadingFavorites:', loadingFavorites);
+    const { favoritos, loadingFavorites, isProcessingDelete, processingId } = useSelector(state => state.digimon);
+
     const dispatch = useDispatch();
 
 
@@ -33,8 +33,8 @@ const FavoritePage = () => {
 
     return (
         <Grid container spacing={3}>
-            {loadingFavorites && <p>Loading...</p>}
-            {favoritos.map(({ id, name, images, releaseDate, types, levels }) => (
+            {loadingFavorites && <p>Loading Favoritos...</p>}
+            {!loadingFavorites && favoritos.map(({ id, name, images, releaseDate, types, levels }) => (
                 <Grid xs={12} sm={6} md={4} lg={3} key={id}>
                     <DigiCard
                         id={id}
@@ -44,6 +44,7 @@ const FavoritePage = () => {
                         type={(!types.length) ? '-' : types[0].type}
                         level={(!levels.length) ? '-' : levels[0].level}
                         releaseDate={releaseDate}
+                        isProcessingDelete={isProcessingDelete && processingId === id}
                         onRemoveFavorito={() => handleRemoveFavorito(id)}
                     />
                 </Grid>
