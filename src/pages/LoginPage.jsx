@@ -1,18 +1,15 @@
 
-
 import React, { useMemo } from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import { Google, LockClockOutlined, LockOutlined } from '@mui/icons-material';
+import { Google, LockOutlined } from '@mui/icons-material';
 import { useDispatch, useSelector } from 'react-redux';
 import { useForm } from '../hooks/useForm';
 import { Alert } from '@mui/material';
@@ -20,13 +17,11 @@ import { startGoogleSignIn, startLoginWithEmailPassword } from '../store/auth';
 
 
 
-
-
 export default function LoginPage() {
 
     const dispatch = useDispatch();
     const { status, errorMessage } = useSelector(state => state.auth);
-    const isAuthenticating = useMemo(() => status == 'checking', [status])
+    const isAuthenticating = useMemo(() => status === 'checking', [status])
 
     const { email, password, onInputChange } = useForm({
         email: '',

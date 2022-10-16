@@ -10,43 +10,40 @@ import { Drawer } from "./style";
 import Header from "../components/header";
 import Sidebar from "../components/sidebar";
 import { useDispatch, useSelector } from "react-redux";
-import { startAddingFavorite, startLoadingDigimons, startRemovingFAvorite } from "../store/digimon";
+import { startAddingFavorite, startLoadingDigimons, startLoadingFavorites, startRemovingFAvorite } from "../store/digimon";
 
 
 
-const Dashboard = () => {
-    const { all, filtered, favoritos, loading, isFiltering } = useSelector(state => state.digimon);
+const FavoritePage = () => {
+    const { favoritos, loadingFavorites } = useSelector(state => state.digimon);
+    console.log('laadingFavorites:', loadingFavorites);
     const dispatch = useDispatch();
 
 
-    const lista = isFiltering ? filtered : all;
+    //const lista = isFiltering ? filtered : all;
     useEffect(() => {
-        dispatch(startLoadingDigimons());
+        dispatch(startLoadingFavorites());
     }, []);
 
-    const handleAddFavorito = (id) => {
-        dispatch(startAddingFavorite(id));
-    }
     const handleRemoveFavorito = (id) => {
         dispatch(startRemovingFAvorite(id));
     }
 
-    const favoriteIds = favoritos.map(item => item.id);
+
 
     return (
         <Grid container spacing={3}>
-            {loading && <p>Loading...</p>}
-            {lista.map(({ id, name, images, releaseDate, types, levels }) => (
+            {loadingFavorites && <p>Loading...</p>}
+            {favoritos.map(({ id, name, images, releaseDate, types, levels }) => (
                 <Grid xs={12} sm={6} md={4} lg={3} key={id}>
                     <DigiCard
                         id={id}
                         name={name}
                         image={images[0].href}
-                        isFavorito={favoriteIds.includes(id)}
+                        isFavorito={true}
                         type={(!types.length) ? '-' : types[0].type}
                         level={(!levels.length) ? '-' : levels[0].level}
                         releaseDate={releaseDate}
-                        onAddFavorito={() => handleAddFavorito(id)}
                         onRemoveFavorito={() => handleRemoveFavorito(id)}
                     />
                 </Grid>
@@ -55,4 +52,4 @@ const Dashboard = () => {
     );
 }
 
-export default Dashboard;
+export default FavoritePage;

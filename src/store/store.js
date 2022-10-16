@@ -6,5 +6,8 @@ export const store = configureStore({
     reducer: {
         auth: authSlice.reducer,
         digimon: digimonSlice.reducer
-    }
+    },
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware({
+        serializableCheck: false
+    }),
 });

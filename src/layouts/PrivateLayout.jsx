@@ -1,4 +1,4 @@
-import { Box, Container, CssBaseline, Drawer, Toolbar } from '@mui/material';
+import { Alert, Box, Container, CssBaseline, Divider, Drawer, Snackbar, Toolbar, Typography } from '@mui/material';
 import React, { useContext, useState } from 'react'
 import { useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom'
@@ -6,59 +6,42 @@ import Header from '../components/header';
 import Sidebar from '../components/sidebar';
 
 
+const drawerWidth = 240;
 
 export const PrivateLayout = ({ children, component }) => {
     const { status } = useSelector(state => state.auth)
-    const [open, setOpen] = useState(true);
-    const [digimons, setDigimons] = useState([]);
-    const [digimonsFiltered, setDigimonsFiltered] = useState(digimons);
-    const [typeSelected, setTypeSelected] = useState();
-    const [levelSelected, setLevelSelected] = useState(5);
-    const [searchName, setSearchName] = useState()
-
-    const handleTypeChange = (event) => {
-        setTypeSelected(event.target.value);
-    };
-
-    const handleLevelChange = (event) => {
-        setLevelSelected(event.target.value);
-    };
-
-    const handleNameChange = (event) => {
-        setSearchName(event.target.value);
-    };
-
-    const toggleDrawer = () => {
-        setOpen(!open);
-    };
-
-
+    const { setMessage } = useSelector(state => state.digimon)
     const content = component ?? children;
 
     return (
-        <Box sx={{ display: "flex" }}>
+        <Box sx={{ display: 'flex' }}>
             <CssBaseline />
-            <Header
-
-            />
-
-            <Box
-                component="main"
+            <Header drawerWidth={drawerWidth} />
+            <Drawer
                 sx={{
-                    backgroundColor: (theme) =>
-                        theme.palette.mode === "light"
-                            ? theme.palette.grey[100]
-                            : theme.palette.grey[900],
-                    flexGrow: 1,
-                    height: "100vh",
-                    overflow: "auto",
+                    width: drawerWidth,
+                    flexShrink: 0,
+                    '& .MuiDrawer-paper': {
+                        width: drawerWidth,
+                        boxSizing: 'border-box',
+                    },
                 }}
+                variant="permanent"
+                anchor="left"
             >
                 <Toolbar />
-                <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
-                    {status === 'authenticated' ? content : <Navigate to="/" />}
-                </Container>
-            </Box>
+                <Divider />
+                <Sidebar />
+            </Drawer>
+            <Container maxWidth="xl" sx={{ mt: 4, mb: 4 }}>
+                <Toolbar />
+                {status === 'authenticated' ? content : <Navigate to="/" />}
+            </Container>
+            <Snackbar open={!setMessage} autoHideDuration={6000} >
+                <Alert severity="success" sx={{ width: '100%' }}>
+                    Se guardo en favoritos!
+                </Alert>
+            </Snackbar>
         </Box>
     );
 

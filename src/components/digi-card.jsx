@@ -16,7 +16,7 @@ import { Button } from '@mui/material';
 
 
 
-const DigiCard = ({ name, image, level, type, releaseDate }) => {
+const DigiCard = ({ id, name, image, level, type, isFavorito, onAddFavorito, onRemoveFavorito }) => {
     return (
         <Card sx={{ maxWidth: 345 }}>
             <CardMedia
@@ -30,14 +30,15 @@ const DigiCard = ({ name, image, level, type, releaseDate }) => {
                 <Typography gutterBottom variant="h5" component="div">
                     {name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="h7" color="primary">
                     Type : {type}
                     <br />
                     Level : {level}
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
-                <Button endIcon={<FavoriteIcon />} variant="contained" color="secondary">Agregar a Favoritos</Button>
+                {isFavorito && <Button endIcon={<FavoriteIcon />} variant="contained" onClick={onRemoveFavorito}>Remover de Favoritos</Button>}
+                {!isFavorito && <Button endIcon={<FavoriteIcon />} variant="contained" color="secondary" onClick={onAddFavorito}>Agregar a Favoritos</Button>}
             </CardActions>
         </Card>
     );

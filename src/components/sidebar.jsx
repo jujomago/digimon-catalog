@@ -1,17 +1,44 @@
 import { DashboardSharp, Favorite } from '@mui/icons-material'
 import { Divider, FormControl, InputLabel, List, ListItem, ListItemButton, ListItemIcon, ListItemText, ListSubheader, MenuItem, Select, TextField } from '@mui/material'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import types from '../data/types.json'
 import levels from '../data/levels.json'
+import { useDispatch, useSelector } from 'react-redux'
+import { searchByLevel, searchByType, searchName } from '../store/digimon'
+import { useForm } from '../hooks/useForm'
+import { useNavigate } from 'react-router-dom'
 
-const Sidebar = ({ handleLevelChange, handleNameChange, handleTypeChange, typeSelected, levelSelected, searchName }) => {
+const Sidebar = () => {
+    const dispatch = useDispatch();
+    const navigate = useNavigate();
+    const { filterName, filterType, filterLevel, onInputChange } = useForm({
+        filterName: '',
+        filterType: '',
+        filterLevel: ''
+    });
+
+    useEffect(() => {
+
+        if (filterName?.trim().length > 5) {
+            dispatch(searchName(filterName))
+        }
+        if (filterType)
+            dispatch(searchByType(filterType))
+
+        if (filterLevel)
+            dispatch(searchByLevel(filterLevel))
+
+
+
+    }, [filterName, filterType, filterLevel])
+
     return (
         <>
             <ListSubheader component="div" >
                 Search a Name
             </ListSubheader>
             <ListItem>
-                <TextField id="standard-basic" variant="standard" fullWidth onChange={handleNameChange} value={searchName} />
+                <TextField id="standard-basic" variant="standard" name="filterName" fullWidth onChange={onInputChange} value={filterName} />
             </ListItem>
             <ListSubheader component="div">
                 Filters
@@ -22,9 +49,10 @@ const Sidebar = ({ handleLevelChange, handleNameChange, handleTypeChange, typeSe
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        value={typeSelected}
+                        name='filterType'
+                        value={filterType}
                         label="Type"
-                        onChange={handleTypeChange}
+                        onChange={onInputChange}
                     >
                         <MenuItem value="">
                             <em>Ninguno</em>
@@ -39,10 +67,10 @@ const Sidebar = ({ handleLevelChange, handleNameChange, handleTypeChange, typeSe
                     <Select
                         labelId="demo-simple-select-label"
                         id="demo-simple-select"
-                        value={levelSelected}
+                        name='filterLevel'
+                        value={filterLevel}
                         label="Level"
-                        onChange={handleLevelChange}
-                    >
+                        onChange={onInputChange}                    >
                         <MenuItem value="">
                             <em>Ninguno</em>
                         </MenuItem>
@@ -52,13 +80,13 @@ const Sidebar = ({ handleLevelChange, handleNameChange, handleTypeChange, typeSe
             </ListItem>
             <Divider />
             <List component="nav">
-                <ListItemButton>
+                <ListItemButton onClick={() => navigate('/dashboard')}>
                     <ListItemIcon>
                         <DashboardSharp />
                     </ListItemIcon>
-                    <ListItemText primary="Catalog" />
+                    <ListItemText primary="Catalog" on />
                 </ListItemButton>
-                <ListItemButton>
+                <ListItemButton onClick={() => navigate('/favoritos')}>
                     <ListItemIcon>
                         <Favorite />
                     </ListItemIcon>

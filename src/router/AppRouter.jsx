@@ -3,6 +3,8 @@ import { Route, Routes } from 'react-router-dom';
 import { useCheckAuth } from '../hooks/useCheckAuth';
 import { PrivateLayout } from '../layouts/PrivateLayout';
 import { PublicLayout } from '../layouts/PublicLayout';
+import DashboardPage from '../pages/DashboardPage';
+import FavoritePage from '../pages/FavoritesPage';
 import LoginPage from '../pages/LoginPage';
 import RegisterPage from '../pages/RegisterPage';
 
@@ -17,11 +19,8 @@ export const AppRouter = () => {
         <Routes>
             <Route path="/" element={<PublicLayout component={<LoginPage />} />} />
             <Route path="/login" element={<PublicLayout component={<LoginPage />} />} />
-            <Route path="/register" element={<PublicLayout component={<RegisterPage />} />} />
-            <Route path="/dashboard" element={<PrivateLayout>
-                <h5>favoritos</h5>
-            </PrivateLayout>} />
-            <Route path="/favoritos" element={<PrivateLayout component={<h5>favoritos</h5>} />} />
+            <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
+            <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
         </Routes>
     )
 }
