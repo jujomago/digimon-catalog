@@ -25,7 +25,7 @@ function App() {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <HashRouter>
+        <HashRouter basename='/'>
           <AppRouter />
         </HashRouter>
       </ThemeProvider>

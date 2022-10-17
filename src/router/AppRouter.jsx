@@ -19,10 +19,10 @@ export const AppRouter = () => {
     return (
         <Routes>
             <Route path="/" element={<PublicLayout component={<LoginPage />} />} />
-            <Route path="/login" element={<PublicLayout component={<LoginPage />} />} />
-            <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
-            <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
-            <Route path="/register" element={<PublicLayout component={<RegisterPage />} />} />
+            <Route path="login" element={<PublicLayout component={<LoginPage />} />} />
+            <Route path="dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
+            <Route path="favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
+            <Route path="register" element={<PublicLayout component={<RegisterPage />} />} />
         </Routes>
     )
 }
