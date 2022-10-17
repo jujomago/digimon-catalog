@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 import RegisterPage from './pages/RegisterPage'
 //import DashboardPage from './pages/DashboardPage'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import { PublicLayout } from './layouts/PublicLayout';
 import { PrivateLayout } from './layouts/PrivateLayout';
 import LoginPage from './pages/LoginPage';
@@ -25,9 +25,9 @@ function App() {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
+        <HashRouter>
           <AppRouter />
-        </BrowserRouter>
+        </HashRouter>
       </ThemeProvider>
     </Provider>
 

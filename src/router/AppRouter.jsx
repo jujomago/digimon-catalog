@@ -23,7 +23,7 @@ export const AppRouter = () => {
             <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
             <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
             <Route path="/register" element={<PublicLayout component={<RegisterPage />} />} />
-            <Route path="*" element={<Navigate to="/" replace={true} />} />
+            <Route path="*" element={<Navigate to="/" />} />
         </Routes>
     )
 }
