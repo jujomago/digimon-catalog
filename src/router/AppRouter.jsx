@@ -22,6 +22,7 @@ export const AppRouter = () => {
             <Route path="/login" element={<PublicLayout component={<LoginPage />} />} />
             <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
             <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
+            <Route path="/register" element={<PublicLayout component={<RegisterPage />} />} />
             <Route path="*" element={<h4>Sorry, not Found</h4>} />
         </Routes>
     )
