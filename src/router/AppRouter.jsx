@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { useCheckAuth } from '../hooks/useCheckAuth';
 import { PrivateLayout } from '../layouts/PrivateLayout';
@@ -23,7 +23,7 @@ export const AppRouter = () => {
             <Route path="/dashboard" element={<PrivateLayout component={<DashboardPage />} />} />
             <Route path="/favoritos" element={<PrivateLayout component={<FavoritePage />} />} />
             <Route path="/register" element={<PublicLayout component={<RegisterPage />} />} />
-            <Route path="*" element={<h4>Sorry, not Found</h4>} />
+            <Route path="*" element={<Navigate to="/" replace={true} />} />
         </Routes>
     )
 }
