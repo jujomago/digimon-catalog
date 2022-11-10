@@ -1,14 +1,16 @@
-import { Alert, Box, Container, CssBaseline, Divider, Drawer, Snackbar, Toolbar, Typography } from '@mui/material';
-import React, { useContext, useState } from 'react'
-import { useSelector } from 'react-redux';
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom'
+import { Alert, AlertTitle, Box, Container, CssBaseline, Divider, Drawer, Snackbar, Toolbar } from '@mui/material';
 import Header from '../components/header';
 import Sidebar from '../components/sidebar';
+import { setSuccesMessage } from '../store/digimon';
 
 
 const drawerWidth = 240;
 
 export const PrivateLayout = ({ children, component }) => {
+    const dispatch = useDispatch();
     const { status } = useSelector(state => state.auth)
     const { setMessage } = useSelector(state => state.digimon)
     const content = component ?? children;
@@ -37,9 +39,18 @@ export const PrivateLayout = ({ children, component }) => {
                 <Toolbar />
                 {status === 'authenticated' ? content : <Navigate to="/" />}
             </Container>
-            <Snackbar open={!setMessage} autoHideDuration={6000} >
-                <Alert severity="success" sx={{ width: '100%' }}>
-                    Se guardo en favoritos!
+
+            <Snackbar
+                anchorOrigin={{
+                    vertical: 'bottom',
+                    horizontal: 'right',
+                }}
+                open={setMessage}
+                autoHideDuration={6000}
+                onClose={() => dispatch(setSuccesMessage(null))} >
+                <Alert severity="success" sx={{ width: '100%' }} variant='filled'>
+                    <AlertTitle>Exitoso</AlertTitle>
+                    {setMessage}
                 </Alert>
             </Snackbar>
         </Box>

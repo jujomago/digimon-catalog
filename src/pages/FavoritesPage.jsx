@@ -1,28 +1,17 @@
-import React, { useEffect, useState } from "react";
-import CssBaseline from "@mui/material/CssBaseline";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Container from "@mui/material/Container";
+import React, { useEffect } from "react";
+
 import Grid from "@mui/material/Unstable_Grid2";
 import DigiCard from "../components/digi-card";
-
-import { Drawer } from "./style";
-import Header from "../components/header";
-import Sidebar from "../components/sidebar";
 import { useDispatch, useSelector } from "react-redux";
-import { startAddingFavorite, startLoadingDigimons, startLoadingFavorites, startRemovingFAvorite } from "../store/digimon";
-
-
+import { startLoadingFavorites, startRemovingFAvorite } from "../store/digimon";
 
 const FavoritePage = () => {
     const { favoritos, loadingFavorites, isProcessingDelete, processingId } = useSelector(state => state.digimon);
-
+    const { uid } = useSelector(state => state.auth)
     const dispatch = useDispatch();
 
-
-    //const lista = isFiltering ? filtered : all;
     useEffect(() => {
-        dispatch(startLoadingFavorites());
+        dispatch(startLoadingFavorites(uid));
     }, []);
 
     const handleRemoveFavorito = (id) => {

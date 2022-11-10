@@ -14,7 +14,7 @@ export const useCheckAuth = () => {
             if (!user) return dispatch(logout());
             if (user) return dispatch(login(user));
         })
-    }, [])
+    })
 
     return status;
 }

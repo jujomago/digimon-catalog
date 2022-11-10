@@ -1,13 +1,11 @@
-
-
-
-import { collection, addDoc, getDocs, deleteDoc, doc, where } from "firebase/firestore";
+import { collection, getDocs, deleteDoc, doc, setDoc } from "firebase/firestore";
 import unknowns from '../../data/unknowns.json'
 import { db } from '../../firebase/config'
-import { setData, setLoading, setLoadingFavorite, setSuccesMessage, setErrorMessage, setLoadingFavorites, setFavorites, setIsProcessing, setIsProcessingAdd, setIsProcessingDelete } from './digimonSlice';
+import { setData, setLoading, setSuccesMessage, setErrorMessage, setLoadingFavorites, setFavorites, setIsProcessingAdd, setIsProcessingDelete, setUserId } from './digimonSlice';
 
 const localStorageKey = 'digimonData';
 const apiUrl = 'https://www.digi-api.com/api/v1/digimon?pageSize=1500';
+const colletionFavoritos = "favoritos";
 
 const getDigimons = async () => {
     const unknownsIds = unknowns.map(item => item.id)
@@ -41,11 +39,12 @@ const addFavoriteKey = (data, favoritesIds) => {
     return newData;
 }
 
-export const startLoadingDigimons = () => async (dispatch) => {
+export const startLoadingDigimons = (uid) => async (dispatch) => {
     dispatch(setLoading(true));
+    dispatch(setUserId(uid))
     try {
         let favoritesIds = [];
-        const querySpanshot = await getDocs(collection(db, "favoritos"));
+        const querySpanshot = await getDocs(collection(db, colletionFavoritos));
         querySpanshot.forEach((doc) => {
             favoritesIds.push(doc.data().id);
         });
@@ -67,14 +66,15 @@ export const startLoadingDigimons = () => async (dispatch) => {
         dispatch(setLoading(false));
     }
 }
-export const startLoadingFavorites = () => async (dispatch) => {
-    console.log('loading favorites');
+export const startLoadingFavorites = (uid) => async (dispatch) => {
+    console.log('loading favorites for user:', uid);
 
     dispatch(setLoadingFavorites(true));
     try {
         let favoritesIds = [];
-        const querySpanshot = await getDocs(collection(db, "favoritos"));
+        const querySpanshot = await getDocs(collection(db, colletionFavoritos));
         querySpanshot.forEach((doc) => {
+            //if (doc.data().uid === uid)
             favoritesIds.push(doc.data().id);
         });
         dispatch(setFavorites(favoritesIds))
@@ -87,14 +87,16 @@ export const startLoadingFavorites = () => async (dispatch) => {
 }
 
 
-export const startAddingFavorite = (id) => async (dispatch) => {
+export const startAddingFavorite = (id, name, uid) => async (dispatch) => {
     console.log('adding farorite:', id);
     dispatch(setIsProcessingAdd({ id, value: true }));
     try {
-
-        await addDoc(collection(db, "favoritos"), { id });
-
-        dispatch(setSuccesMessage())
+        await setDoc(doc(db, colletionFavoritos, String(id)), {
+            id,
+            name,
+            uid
+        })
+        dispatch(setSuccesMessage('Se Adiciono a Favoritos con exito'))
     } catch (error) {
         dispatch(setErrorMessage())
         console.log("hubo un error al agregar un favorito", error);
@@ -105,14 +107,12 @@ export const startAddingFavorite = (id) => async (dispatch) => {
 
 export const startRemovingFAvorite = (id) => async (dispatch) => {
     console.log('removing farorite:', id);
-    const docRef = doc(db, 'favoritos', String(id));
+    const docRef = doc(db, colletionFavoritos, String(id));
     dispatch(setIsProcessingDelete({ id, value: true }));
     try {
-        //doc(db,'favoritos',)
-        //await db.collection("favoritos").doc(id).delete();
         await deleteDoc(docRef);
-        //dispatch(startLoadingFavorites())
-        dispatch(setSuccesMessage())
+        dispatch(startLoadingFavorites())
+        dispatch(setSuccesMessage('Se elimino con exito'))
     } catch (error) {
         dispatch(setErrorMessage())
         console.log("hubo un error al eliminar un favorito", error);

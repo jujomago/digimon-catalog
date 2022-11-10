@@ -11,6 +11,7 @@ const initialState = {
     isProcessingDelete: false,
     setMessage: null,
     processingId: null,
+    uid: null
 }
 
 export const digimonSlice = createSlice({
@@ -19,6 +20,9 @@ export const digimonSlice = createSlice({
     reducers: {
         setLoading(state, action) {
             state.loading = action.payload
+        },
+        setUserId(state, action) {
+            state.uid = action.payload
         },
         setData(state, action) {
             state.isFiltering = false
@@ -62,7 +66,7 @@ export const digimonSlice = createSlice({
             state.filtered = data.filter(item => item.levels[0]?.id === payload)
         },
         setSuccesMessage(state, action) {
-            state.setMessage = 'ok'
+            state.setMessage = action.payload
         },
         setErrorMessage(state, action) {
             state.setMessage = null
@@ -83,5 +87,6 @@ export const { setLoading,
     setLoadingFavorites,
     setFavorites,
     setIsFiltering,
+    setUserId,
     searchByType, searchByLevel } = digimonSlice.actions
 
